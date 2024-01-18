@@ -1,12 +1,20 @@
 # Virtual Mouse
 
-Software Requirements
-Pycharm IDE
-OpenCV : (Open Source Computer Vision) is a popular open-source computer vision and machine learning software library. It is used to develop real-time computer vision applications, including image and video processing, object detection and recognition, and deep learning-based face recognition
-Mediapipe : MediaPipe is an open-source framework developed by Google that provides customizable and reusable building blocks for developers and researchers to create cross-platform, real-time perception pipelines. It offers solutions for various tasks such as object detection, face detection and tracking, hand tracking
-Autopy : It is a Python library for automation of GUI interactions with a computer, such as mouse and keyboard control, window manipulation, and screen captures
-An Windows10 operating system that is compatible with the gesture recognition software and camera driver.
+The virtual mouse system utilizes hand gesture recognition to control the mouse cursor, providing an intuitive and natural interaction with digital devices. The system employs computer vision and machine learning techniques, using OpenCV and MediaPipe libraries for hand detection and tracking. Autopy library is used to simulate mouse clicks and movements on the screen. The primary goal is to offer an alternative to traditional mouse devices, especially beneficial for individuals with disabilities or mobility impairments.
 
+1.  Install the required libraries using pip install -r requirements.txt.
+   
+2.  Run the virtual_mouse.py script.
+
+3.Use hand gestures to control the virtual mouse:
+Move cursor by lifting index finger.
+Left-click by lifting index and middle fingers.
+Right-click by lifting all three fingers (index, middle, and ring).
+Double-click by lifting index and middle fingers simultaneously.
+
+Pycharm IDE.
+
+OpenCV, MediaPipe, Autopy Python libraries.
 
 ![image](https://github.com/Aditi2018/virtual-mouse/assets/117904179/e9438904-9253-445b-8826-af5ae48ecc69)
 
