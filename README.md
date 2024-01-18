@@ -1,11 +1,15 @@
-# virtual-mouse
+# Virtual Mouse
 
 Software Requirements
-Pycharm IDE.
-OpenCV : (Open Source Computer Vision) is a popular open-source computer vision and machine learning software library. It is used to develop real-time computer vision applications, including image and video processing, object detection and recognition, and deep learning-based face recognition.
+Pycharm IDE
+OpenCV : (Open Source Computer Vision) is a popular open-source computer vision and machine learning software library. It is used to develop real-time computer vision applications, including image and video processing, object detection and recognition, and deep learning-based face recognition
 Mediapipe : MediaPipe is an open-source framework developed by Google that provides customizable and reusable building blocks for developers and researchers to create cross-platform, real-time perception pipelines. It offers solutions for various tasks such as object detection, face detection and tracking, hand tracking
-Autopy : It is a Python library for automation of GUI interactions with a computer, such as mouse and keyboard control, window manipulation, and screen captures.
+Autopy : It is a Python library for automation of GUI interactions with a computer, such as mouse and keyboard control, window manipulation, and screen captures
 An Windows10 operating system that is compatible with the gesture recognition software and camera driver.
+
+
+![image](https://github.com/Aditi2018/virtual-mouse/assets/117904179/e9438904-9253-445b-8826-af5ae48ecc69)
+
 
 ![image](https://github.com/Aditi2018/virtual-mouse/assets/117904179/520b2f54-8298-4f6c-9166-d3064f73f266)
 If the index finger is up and the middle finger is down, the code maps the position of the hand within the boundary box to the screen size and moves the cursor accordingly using the autopy.mouse.move() method. 
