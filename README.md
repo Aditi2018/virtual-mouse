@@ -6,7 +6,7 @@ The virtual mouse system utilizes hand gesture recognition to control the mouse 
    
 2.  Run the virtual_mouse.py script.
 
-3.Use hand gestures to control the virtual mouse:
+3.   Use hand gestures to control the virtual mouse:
 Move cursor by lifting index finger.
 Left-click by lifting index and middle fingers.
 Right-click by lifting all three fingers (index, middle, and ring).
