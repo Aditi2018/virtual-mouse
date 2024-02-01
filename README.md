@@ -1,5 +1,6 @@
 # Virtual Mouse
 
+
 The virtual mouse system utilizes hand gesture recognition to control the mouse cursor, providing an intuitive and natural interaction with digital devices. The system employs computer vision and machine learning techniques, using OpenCV and MediaPipe libraries for hand detection and tracking. Autopy library is used to simulate mouse clicks and movements on the screen. The primary goal is to offer an alternative to traditional mouse devices, especially beneficial for individuals with disabilities or mobility impairments.
 
 1.  Install the required libraries using pip install -r requirements.txt.
